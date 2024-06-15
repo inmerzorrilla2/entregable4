@@ -1,0 +1,53 @@
+/*  --- Reset ---*/
+
+*, 
+*::before, 
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+
+ul{
+  list-style: none;
+}
+
+input,
+button{
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+  border-radius: 5px;
+}
+
+input{
+  padding: 5px;
+  border: 2px solid rgb(61, 57, 57);
+  color: rgb(218, 20, 185);
+}
+
+button{
+  border: none;
+  padding: 3px 9px;
+}
+
+.app__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.app__container{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
