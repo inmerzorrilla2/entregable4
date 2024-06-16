@@ -27,7 +27,7 @@ function App() {
   return (
   <div className='app'>
     <div className='app__header'>
-    <h1>Crud Users</h1>
+    <h1 className='app__title'>Crud Users</h1>
     <button onClick={handleForm}>Create User</button>
     </div>
     <UserForm 
