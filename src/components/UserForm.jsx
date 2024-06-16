@@ -46,7 +46,7 @@ const UserForm = ({ createUser, update, updateUser, setUpdate, isShow, setIsShow
 
 
   return (
-    <div className={`userform'${isShow && 'active'}`}>
+    <div className={`userform ${isShow && 'active'}`}>
         <form className='userform__form' onSubmit={handleSubmit(submit)}>
         <div className='userform__header'>
         <h2>{update ? 'Edit User' : 'New User'}</h2>
